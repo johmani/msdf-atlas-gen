@@ -5,7 +5,7 @@ project "msdf-atlas-gen"
 	language "C++"
 	cppdialect "C++20"
     staticruntime "off"
-
+	location (projectLocation)
 	targetdir (libOutputDir)
     objdir (IntermediatesOutputDir)
 
